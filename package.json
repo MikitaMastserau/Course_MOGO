@@ -1,0 +1,21 @@
+{
+  "name": "kurs_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx parcel index.html --open"
+  },
+  "keywords": [
+    "npm",
+    "sass",
+    "parcel",
+    "node.js"
+  ],
+  "author": "Mikita Mastserau <nik.redko@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
