@@ -152,17 +152,17 @@ body {
 
     .hat {
         padding: 0;
-    }
 
-    .hat__sense {
-        font-size: 64px;
-        line-height: 80px;
-        padding: 0;
-    }
+        &__sense {
+            font-size: 64px;
+            line-height: 80px;
+            padding: 0;
+        }
 
-    .hat__line {
-        background-color: $snow;
-        margin-top: 40px;
+        &__line {
+            background-color: $snow;
+            margin-top: 40px;
+        }
     }
 
     &__button {
@@ -329,21 +329,22 @@ body {
 
 .design {
     background: url(../img/design_bg.jpg) no-repeat center center / cover;
+    padding-bottom: 57px;
 
     .container {
         position: relative;
     }
 
     &__tablet {
-        padding: 59px 0 57px;
+        display: block;
+        margin: 59px auto 0;
     }
 
     &__phone {
         position: absolute;
         right: 215px;
-        bottom: -41.5px;
+        bottom: -98.5px;
     }
-
 }
 
 .service__doing {
@@ -355,7 +356,6 @@ body {
         display: flex;
         flex-direction: column;
         row-gap: 22px;
-
 
         input {
             display: none;
