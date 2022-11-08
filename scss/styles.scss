@@ -57,7 +57,12 @@ body {
     }
 
     a {
+        text-align: center;
         text-transform: uppercase;
+    }
+
+    img {
+        object-fit: cover;
     }
 }
 
@@ -128,7 +133,7 @@ body {
     }
 
     &__title {
-        padding: 19.5px;
+        padding: 19.5px 0;
     }
 
     &__line {
@@ -195,10 +200,6 @@ body {
 
         &__timer {
             width: 270px;
-            font-weight: 500;
-            border-top: 4px solid;
-            text-transform: uppercase;
-            padding: 19.5px 0;
             position: relative;
 
             &:first-of-type {
@@ -210,16 +211,31 @@ body {
                     height: 4px;
                     background-color: $line;
                     position: absolute;
-                    top: -4px;
+                    top: 0;
                     left: 0;
+                }
+
+                hr {
+                    background-color: $snow;
                 }
 
             }
 
-            span {
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 42px;
+            hr {
+                height: 4px;
+                background-color: $slaid;
+            }
+
+            p {
+                font-weight: 500;
+                text-transform: uppercase;
+                padding: 19.5px 0;
+                    
+                span {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 42px;
+                }
             }
         }
     }
@@ -331,20 +347,20 @@ body {
     background: url(../img/design_bg.jpg) no-repeat center center / cover;
     padding-bottom: 57px;
 
-    .container {
+    &__device {
         position: relative;
-    }
 
-    &__tablet {
-        display: block;
-        margin: 59px auto 0;
-    }
+        &__tablet {
+            display: block;
+            margin: 59px auto 0;
+        }
 
-    &__phone {
-        position: absolute;
-        right: 215px;
-        bottom: -98.5px;
-    }
+        &__phone {
+            position: absolute;
+            right: 200px;
+            bottom: -98.5px;
+        }
+    }    
 }
 
 .service__doing {
@@ -459,11 +475,12 @@ body {
 }
 
 .team {
-
     .description {
-        margin-bottom: 0;
+        margin-bottom: 84px;
 
         &__project {
+            text-align: center;
+
             &__img {
                 height: 424px;
             }
@@ -471,24 +488,15 @@ body {
             &__hov {
                 height: 424px;
             }
-        }
-    }
 
-    .team__spec {
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 30px;
-        text-align: center;
+            h3 {
+                padding: 26px 0;
+            }
 
-        h3 {
-            padding: 26px 0;
-        }
-
-        p {
-            padding: 4.5px 0;
-            text-transform: uppercase;
-            margin-bottom: 84px;
+            p {
+                padding: 4.5px 0;
+                text-transform: uppercase;
+            }
         }
     }
 }
@@ -556,6 +564,7 @@ body {
                 width: 378px;
                 height: 378px;
                 justify-content: start;
+                text-align: center;
                 row-gap: 0;
                 top: 0;
                 left: 0;
@@ -702,28 +711,29 @@ body {
 
 .footer {
     background-color: $back;
-    padding-top: 42px;
+    padding: 42px 0 92px;
 
     .container {
-        display: grid;
-        grid-template-rows: repeat(3, auto);
-        grid-template-columns: repeat(3, auto);
+        display: flex;
         column-gap: 30px;
+        position: relative;
 
         h3 {
             padding: 36px 0;
         }
         
         > p {
+            width: 100%;
             font-weight: 700;
             font-size: 13px;
             line-height: 15px;
             text-transform: uppercase;
             text-align: center;
-            grid-column: 1 / 4;
             border-top: 1px solid $invis;
             padding: 17px 0;
-            margin-top: 42px;
+            position: absolute;
+            bottom: -92px;
+            left: 0;
         }
     }
 
@@ -758,8 +768,10 @@ body {
 
         &__links {
             display: flex;
+            justify-content: center;
             align-items: center;
             border-top: 1px solid $invis;
+            column-gap: 11px;
 
             p {
                 width: 70px;
@@ -772,7 +784,6 @@ body {
             }
 
             a {
-                margin-left: 11px;
                 transition: all .2s ease;
 
                 &:hover {
@@ -823,7 +834,6 @@ body {
     }
 
     &__blogs {
-
         &__article {
             display: flex;
             column-gap: 30px;
@@ -847,12 +857,13 @@ body {
     }
 
     &__insta {
-        display: grid;
-        grid-template-rows: repeat(4, auto);
-        grid-template-columns: repeat(3, auto);
+        &__photo {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+        }
 
         &__more {
-            grid-column: 1 / 4;
             padding: 35px 0;
 
             a {
