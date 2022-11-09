@@ -578,19 +578,19 @@ body {
                 grid-column: 3;
 
                 a {
-                    margin-top: 307px;
+                    margin-top: 80%;
                 }
             }
 
             &__hov {
                 justify-content: start;
-                text-align: center;
+                align-items: center;
                 row-gap: 0;
                 top: 0;
                 left: 0;
 
                 a {
-                    margin: 118px 0 57px;
+                    margin: 30% 0 57px;
                 }
 
                 h3 {
@@ -610,6 +610,7 @@ body {
 .quotes_2 {
     background-color: $snow;
     padding-bottom: 126px;
+    margin-top: -50%;
 
     img {
         border-radius: 50%;
