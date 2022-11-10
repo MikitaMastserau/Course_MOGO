@@ -1100,6 +1100,7 @@
     .quotes_2 {    
         .container {
             grid-template-rows: repeat(3, auto);
+            margin-top: -50%;
     
             img {
                 display: block;
