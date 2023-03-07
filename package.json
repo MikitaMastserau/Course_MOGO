@@ -6,6 +6,7 @@
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
+    "build": "parcel build index.html",
     "watch": "npx parcel index.html --open"
   },
   "keywords": [
