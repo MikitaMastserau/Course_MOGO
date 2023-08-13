@@ -30,7 +30,7 @@
 
     .header {
         .container {
-            > img {
+            >img {
                 width: 183px;
                 height: 68px;
                 object-fit: contain;
@@ -82,17 +82,17 @@
 
     .main {
         padding-top: 120px;
-    
+
         .hat__sense {
             font-size: 48x;
             line-height: 54px;
         }
-    
+
         .hat__line {
             width: 115px;
             margin-top: 30px;
         }
-    
+
         &__button {
             width: 318px;
             font-size: 18px;
@@ -148,10 +148,10 @@
         row-gap: 56px;
         column-gap: 25px;
         margin: 68px auto 58px;
-    
+
         &__kind {
             column-gap: 25px;
-    
+
             h3 {
                 margin-top: 6px;
             }
@@ -179,60 +179,60 @@
         column-gap: 20px;
         padding: 36px 0 88px;
 
-        > img {
+        >img {
             width: 486px;
             height: 409px;
         }
-    
+
         &__acc {
             row-gap: 18.5px;
-    
-            input:checked ~ article {
+
+            input:checked~article {
                 height: 138px;
                 padding: 21px 60px 21px 21px;
             }
-    
-            label {    
+
+            label {
                 img {
                     padding: 17px 34px 17px 15px;
                 }
-    
+
                 span {
                     width: 18px;
                     height: 18px;
                 }
-    
+
             }
         }
     }
 
     .quotes {
         padding: 28px 0;
-    
-        .container {    
+
+        .container {
             span {
                 width: 18px;
                 height: 18px;
                 margin: 0 25px;
             }
-    
+
             img {
                 width: 115px;
                 height: 115px;
                 margin: 0 37px 0 35px;
             }
-    
+
             p {
                 font-size: 18px;
                 line-height: 21px;
                 padding: 1px 0;
                 margin-right: 15px;
             }
-    
+
             hr {
                 width: 47px;
             }
-    
+
             h2 {
                 padding: 0;
                 margin-left: -270px;
@@ -248,7 +248,7 @@
                 &__img {
                     height: 359px;
                 }
-    
+
                 &__hov {
                     height: 359px;
                 }
@@ -256,14 +256,14 @@
                 h3 {
                     padding: 14px 0;
                 }
-    
+
                 p {
                     padding: 1.5px 0;
                 }
             }
         }
     }
-    
+
     .partners {
         padding: 30px 0;
 
@@ -286,12 +286,12 @@
         .hat {
             padding-top: 58px;
         }
-    
+
         .description {
             margin: 28px auto 58px;
-    
-            &__project {    
-                &__hov {    
+
+            &__project {
+                &__hov {
                     a {
                         margin-bottom: 30px;
 
@@ -314,27 +314,27 @@
             row-gap: 28px;
             column-gap: 52px;
             padding: 28px 10px;
-    
-            &__say {    
+
+            &__say {
                 img {
                     width: 88px;
                     height: 88px;
                     margin-top: 20px;
                 }
-    
+
                 h3 {
                     padding: 5.5px 0;
                 }
-    
+
                 p:first-of-type {
                     line-height: 16px;
                 }
-    
+
                 .hat__line {
                     width: 47px;
                     margin: 20px 0;
                 }
-    
+
                 p:last-of-type {
                     padding: 19px 0;
                 }
@@ -346,13 +346,13 @@
         .hat {
             padding-top: 58px;
         }
-    
+
         .description {
             margin: 36px 0 58px;
         }
-    
+
         &__stories {
-            > img {
+            >img {
                 width: 318px;
                 height: 214px;
             }
@@ -364,26 +364,26 @@
                 padding-top: 12px;
                 top: 125px;
                 left: -6px;
-    
+
                 time {
                     font-size: 24px;
                 }
             }
-    
+
             h3 {
                 margin-top: 26px;
             }
-    
-            > p {
+
+            >p {
                 padding: 18.5px 0;
             }
-    
+
             &__marks {
                 margin-top: 19px;
             }
         }
     }
-    
+
     .banner {
         .hat {
             padding: 28px 0;
@@ -405,45 +405,45 @@
 
     .footer {
         padding-top: 28px;
-    
+
         .container {
             h3 {
                 padding: 23.5px 0;
             }
-            
-            > p {
+
+            >p {
                 padding: 14.5px 0;
                 margin-top: 23px;
             }
         }
-    
+
         &__wrap {
             column-gap: 20px;
 
             &__net {
-                > img {
+                >img {
                     width: 183px;
                     height: 68px;
                 }
-    
-                > p:first-of-type {
+
+                >p:first-of-type {
                     width: 317px;
                     padding: 15.5px 0;
                 }
-        
-                > p:last-of-type {
+
+                >p:last-of-type {
                     padding: 8px 0;
                 }
-        
+
                 &__links {
                     column-gap: 14px;
-    
+
                     p {
                         width: 64px;
                         padding: 7px 0;
                         margin-right: 9px;
                     }
-        
+
                     a {
                         img {
                             width: 16px;
@@ -451,60 +451,60 @@
                         }
                     }
                 }
-        
+
                 &__form {
                     margin-top: 25px;
-        
+
                     input {
                         font-size: 14px;
                         line-height: 16px;
                     }
-        
+
                     input:first-of-type {
                         width: 171px;
                         text-align: left;
                         padding: 10px 0 10px 27px;
                     }
-        
+
                     input:last-of-type {
                         width: 146px;
                         padding: 11px 0;
                     }
                 }
             }
-        
+
             &__blogs {
                 &__article {
                     column-gap: 20px;
-    
+
                     img {
                         width: 115px;
                         height: 71px;
                     }
-        
+
                     p:first-of-type {
                         padding: 7.5px 0;
                     }
-        
+
                     p:last-of-type {
                         padding: 5px 0;
                     }
                 }
-        
+
                 &__article:nth-of-type(2) {
                     margin: 13px 0;
                 }
             }
-        
+
             &__insta {
                 img {
                     width: 78px;
                     height: 76px;
                 }
-    
+
                 &__more {
                     padding: 14px 0;
-        
+
                     a {
                         font-size: 12px;
                         line-height: 14px;
@@ -526,7 +526,7 @@
             line-height: 59px;
         }
     }
-    
+
     .header {
         .header__menu__link {
             width: 80px;
@@ -577,28 +577,28 @@
     .service__doing {
         column-gap: 10px;
 
-        > img {
+        >img {
             width: 430px;
             height: 350px;
         }
 
-        input:checked ~ article {
+        input:checked~article {
             height: 79px;
         }
     }
 
     .quotes {
         padding: 28px 0;
-    
-        .container {    
+
+        .container {
             span {
                 margin: 0 10px;
             }
-    
+
             img {
                 margin: 0 20px 0 10px;
             }
-    
+
             h2 {
                 margin-left: -170px;
             }
@@ -606,12 +606,12 @@
     }
 
     .team {
-        .description {    
+        .description {
             &__project {
                 &__img {
                     height: 273px;
                 }
-    
+
                 &__hov {
                     height: 273px;
                 }
@@ -623,9 +623,9 @@
         .hat {
             padding-top: 29px;
         }
-    
-        .description {    
-            &__project {    
+
+        .description {
+            &__project {
                 &__hov {
                     a {
                         margin-bottom: 5px;
@@ -649,9 +649,9 @@
         .hat {
             padding-top: 29px;
         }
-    
+
         &__stories {
-            > img {
+            >img {
                 width: 233px;
                 height: 140px;
             }
@@ -670,48 +670,48 @@
             column-gap: 10px;
 
             &__net {
-                > p:first-of-type {
+                >p:first-of-type {
                     width: 240px;
                 }
-        
+
                 &__links {
                     column-gap: 5px;
-    
+
                     p {
                         width: 63px;
                         margin-right: 2px;
                     }
                 }
-        
+
                 &__form {
                     input:first-of-type {
                         width: 130px;
                     }
-        
+
                     input:last-of-type {
                         width: 100px;
                     }
                 }
             }
-        
+
             &__blogs {
                 &__article {
                     column-gap: 10px;
-    
+
                     img {
                         width: 83px;
                         height: 81px;
                     }
-        
+
                     p:first-of-type {
                         padding: 0;
                     }
-        
+
                     p:last-of-type {
                         padding: 4px 0;
                     }
                 }
-        
+
                 &__article:nth-of-type(2) {
                     margin: 10px 0;
                 }
@@ -733,7 +733,7 @@
 
     .header {
         .container {
-            > img {
+            >img {
                 width: 144px;
                 height: 56px;
                 z-index: 2;
@@ -749,7 +749,7 @@
             left: 0;
             top: 0;
             z-index: 1;
-            
+
             &__links {
                 width: 100%;
             }
@@ -758,7 +758,7 @@
                 display: none;
             }
         }
-    
+
         &__burger {
             [for="burger"] {
                 width: 24px;
@@ -785,33 +785,33 @@
                 content: '';
                 top: -8px;
             }
-        
+
             span::after {
                 content: '';
                 top: 8px;
             }
         }
-    
+
         #burger {
             width: 0;
             height: 0;
             opacity: 0;
 
-            &:checked ~ label span {
+            &:checked~label span {
                 transform: rotate(45deg);
             }
 
-            &:checked ~ label span::before {
+            &:checked~label span::before {
                 top: 0;
                 transform: rotate(0);
             }
 
-            &:checked ~ label span::after {
+            &:checked~label span::after {
                 top: 0;
                 transform: rotate(90deg);
             }
-            
-            &:checked ~ .header__menu {
+
+            &:checked~.header__menu {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -888,18 +888,18 @@
         }
     }
 
-    .amount {    
+    .amount {
         .container {
             display: grid;
             grid-template-rows: repeat(3, 1fr);
             grid-template-columns: repeat(2, 1fr);
         }
-    
+
         &__reason {
             border-right: none;
             border-bottom: 1px solid;
             padding: 17px 0;
-    
+
             &:first-child {
                 border-left: none;
             }
@@ -961,17 +961,17 @@
             row-gap: 29px;
             padding: 29px 0 31px;
 
-            > img {
+            >img {
                 width: 288px;
                 height: 142px;
                 margin: 0 auto;
             }
-        
-            &__acc {    
-                input:checked ~ article {
+
+            &__acc {
+                input:checked~article {
                     height: 138px;
                 }
-        
+
                 label {
                     img {
                         padding: 17px 33px 17px 15px;
@@ -980,24 +980,24 @@
                     h3 {
                         font-size: 14px;
                         line-height: 16px;
-                    }    
+                    }
                 }
             }
         }
     }
-    
-    .quotes {    
-        .container {   
+
+    .quotes {
+        .container {
             grid-template-columns: repeat(2, auto);
-            
+
             span {
                 display: none;
             }
-    
+
             img {
                 display: none;
             }
-    
+
             p {
                 grid-column: 1 / 3;
                 font-size: 14px;
@@ -1005,7 +1005,7 @@
                 padding: 6px 0;
                 margin-right: 0;
             }
-    
+
             h2 {
                 padding: 10px 0;
                 margin-left: -80px;
@@ -1021,7 +1021,7 @@
                 &__img {
                     height: 236px;
                 }
-    
+
                 &__hov {
                     background: none;
                     justify-content: flex-end;
@@ -1038,7 +1038,7 @@
 
     .partners {
         padding: 36px 0;
-    
+
         .container {
             display: grid;
             grid-template-rows: repeat(4, 1fr);
@@ -1056,8 +1056,8 @@
         }
     }
 
-    .work {    
-        .description {   
+    .work {
+        .description {
             margin: 0 auto;
             grid-template-rows: repeat(4, 1fr);
             grid-template-columns: repeat(2, 1fr);
@@ -1089,7 +1089,7 @@
                     grid-column: 1 / 3;
                     height: 50%;
                 }
-    
+
                 &__hov {
                     display: none;
                 }
@@ -1097,11 +1097,11 @@
         }
     }
 
-    .quotes_2 {    
+    .quotes_2 {
         .container {
             grid-template-rows: repeat(3, auto);
             margin-top: -50%;
-    
+
             img {
                 display: block;
                 grid-column: 1 / 3;
@@ -1141,9 +1141,9 @@
         .description {
             margin-bottom: 28px;
         }
-        
+
         &__stories {
-            > img {
+            >img {
                 width: 288px;
                 height: 214px;
             }
@@ -1156,7 +1156,7 @@
                 left: 0;
             }
 
-            > p {
+            >p {
                 padding: 10.5px 0;
             }
 
@@ -1190,68 +1190,68 @@
 
     .footer {
         .container {
-            > p {
+            >p {
                 padding: 14.5px;
                 margin-top: 0;
             }
         }
-    
+
         &__wrap {
             flex-direction: column;
             align-items: center;
             text-align: center;
 
             &__net {
-                > img {
+                >img {
                     margin-left: 80px;
                 }
-    
-                > p:first-of-type {
+
+                >p:first-of-type {
                     width: 100%;
                     padding: 8px 0;
                 }
-        
+
                 &__links {
                     column-gap: 11px;
-    
+
                     p {
                         margin-right: 10px;
                     }
                 }
-        
+
                 &__form {
                     input:first-of-type {
                         width: 100%;
                         border-right: 1px solid #C6CBCD;
                     }
-        
+
                     input:last-of-type {
                         width: 100%;
                         margin: 23px 0 0 0;
                     }
                 }
             }
-        
+
             &__blogs {
                 &__article {
                     text-align: left;
-    
+
                     img {
                         height: 71px;
                     }
                 }
-        
+
                 &__article:nth-of-type(2) {
                     margin: 13px 0;
                 }
             }
-    
+
             &__insta {
                 img {
                     width: 97px;
                     height: 94px;
                 }
-    
+
                 &__more {
                     padding: 31px 0;
                 }
