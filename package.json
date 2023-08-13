@@ -1,7 +1,7 @@
 {
   "name": "kurs_1",
   "version": "1.0.0",
-  "source": "index.html",
+  "source": "index.js",
   "homepage": "https://mikitamastserau.github.io/Kurs_1",
   "scripts": {
     "start": "parcel",
