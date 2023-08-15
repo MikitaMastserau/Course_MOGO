@@ -1,8 +1,8 @@
 {
-  "name": "kurs_1",
+  "name": "mogo",
   "version": "1.0.0",
   "source": "index.html",
-  "homepage": "https://mikitamastserau.github.io/Kurs_1",
+  "homepage": "https://mikitamastserau.github.io/Course_MOGO",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
