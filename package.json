@@ -7,7 +7,6 @@
     "start": "parcel",
     "build": "parcel build",
     "watch": "npx parcel index.html --open",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [
